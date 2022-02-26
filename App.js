@@ -14,7 +14,7 @@ export default function App() {
     (async () => {
       let { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== "granted") {
-        fetchDataFromApi("40.7128", "-74.0060");
+        fetchDataFromApi("-6.859079", "107.920277");
         return;
       }
 
